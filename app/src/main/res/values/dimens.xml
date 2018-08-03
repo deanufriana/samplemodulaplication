@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_kalkulator">75dp</dimen>
+    <dimen name="btn_dimens">0dp</dimen>
+    <dimen name="duapuluh">20sp</dimen>
+    <dimen name="duabelas">12dp</dimen>
+</resources>
