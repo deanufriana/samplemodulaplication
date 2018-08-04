@@ -108,4 +108,9 @@ public class MainActivity extends AppCompatActivity {
         Intent daftar = new Intent(MainActivity.this, ListActivity.class);
         startActivity(daftar);
     }
+
+    public void database(View view) {
+        Intent database = new Intent(MainActivity.this, DatabaseActivity.class);
+        startActivity(database);
+    }
 }

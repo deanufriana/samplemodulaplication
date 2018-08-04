@@ -25,7 +25,9 @@
         <activity android:name=".myactivity.ViewpagerActivity" />
         <activity android:name=".myactivity.MainActivity" />
         <activity android:name=".myactivity.LocationActivity" />
-        <activity android:name=".myactivity.ListActivity"></activity>
+        <activity android:name=".myactivity.ListActivity" />
+        <activity android:name=".myactivity.DetailBeritaActivity" />
+        <activity android:name=".myactivity.DatabaseActivity"/>
     </application>
 
 </manifest>

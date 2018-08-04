@@ -16,20 +16,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="vertical">
 
-            <LinearLayout
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:gravity="center"
+                android:textSize="@dimen/duapuluh"
+                android:text="APK Modul Pelatihan Android" />
 
-                <EditText
-                    android:id="@+id/text"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Tulis Pesan" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="@dimen/duabelas"
+                android:layout_marginTop="@dimen/duabelas"
+                android:background="@color/colorPrimary" />
 
-            </LinearLayout>
+            <EditText
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tulis Pesan" />
 
         </LinearLayout>
 
@@ -59,21 +66,18 @@
                 android:text="Bagikan"
                 android:textColor="#FFFF" />
 
-
         </LinearLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorPrimary"
             android:layout_marginBottom="@dimen/duabelas"
             android:layout_marginTop="@dimen/duabelas"
-            ></View>
+            android:background="@color/colorPrimary" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-             >
+            android:layout_height="wrap_content">
 
             <Button
                 android:id="@+id/kalkulator"
@@ -122,21 +126,37 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/colorPrimary"
-                android:text="Lokasiku"
                 android:onClick="location"
+                android:text="Lokasiku"
                 android:textColor="#FFFF" />
+
+            <Button
+                android:layout_width="@dimen/btn_dimens"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/duabelas"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:onClick="list"
+                android:text="MyList"
+                android:textColor="#FFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
 
             <Button
                 android:layout_width="@dimen/btn_dimens"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/colorPrimary"
-                android:text="MyList"
-                android:onClick="list"
-                android:layout_marginLeft="@dimen/duabelas"
-                android:textColor="#FFFF" />
-        </LinearLayout>
+                android:onClick="database"
+                android:text="Database"
+                android:textColor="#FFFF"
+                />
 
+        </LinearLayout>
 
     </LinearLayout>
 
